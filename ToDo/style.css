@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+*{
+    outline: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    font-family: 'Indie FLower', cursive;
+}
+h1  {
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+    background-color: transparent;
+}
+.date {
+    font-size: 25px;
+    position: absolute;
+    margin: 0;
+    top: 17px;
+    right: 20px;
+}
+
+.input { 
+    width: 87%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-left: 5px;
+
+}
+
+.container {
+    
+    display: block;
+    position: relative;
+    width: 400px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 20px 80px 20px;
+    box-shadow: 5px 5px 5px black;
+}
+.clear {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+.clear:hover{
+    transform: rotate(-7deg);
+}
+.delete {
+    background-color: transparent;
+    border: none;
+}
+.delete:hover {
+    transform: rotate(-7deg);
+}
+
+.submit {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    margin-left: 7px;
+}
+ul {
+    padding: 5px 0 0 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+li {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 16fr 1fr;
+    min-height: 20px;
+    list-style: none;
+    text-align: left;
+    padding: 5px 0;
+    border-bottom: solid 1px burlywood;
+}
+#done {
+    background-color: transparent;
+}
